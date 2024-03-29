@@ -17,6 +17,7 @@ print(rev)
 
 '''  Method 2: Reverse a Number in Python using Slice Operator  '''
 
+
 num2 = int(input("Enter a Nmber to reverse : "))
 
 reversed_no = int(str(num2)[::-1])
@@ -24,6 +25,8 @@ reversed_no = int(str(num2)[::-1])
 print(reversed_no)
 
 '''  Method 3: Reverse a Number in Python using Recursion   '''
+
+
 def reverse_no(n):
   if n < 10:
     return n
