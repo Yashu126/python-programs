@@ -29,3 +29,15 @@ def sum_digits(b):
 n=int(input("Enter a number: "))
 sum_digits(n)
 print(sum(l))
+
+
+#The program takes a number and finds the sum of digits without using recursion.
+
+
+l=[]
+b=int(input("Enter a number: "))
+while(b>0):
+    dig=b%10
+    l.append(dig)
+    b=b//10
+print(sum(l))
